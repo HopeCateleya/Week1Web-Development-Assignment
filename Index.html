@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A beginner-friendly HTML5 web page demonstrating semantic structure, accessibility, and SEO principles." />
+  <title>HTML5 Accessibility & SEO Demo Page</title>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Demo Web Page</h1>
+    <nav aria-label="Main Navigation">
+      <ul>
+        <li><a href="#about" title="Learn more about us">About</a></li>
+        <li><a href="#services" title="Explore our services">Services</a></li>
+        <li><a href="#contact" title="Get in touch with us">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Us</h2>
+      <p>We create web experiences that are accessible, semantic, and optimized for search engines.</p>
+    </section>
+
+    <section id="services">
+      <h2>Our Services</h2>
+      <article>
+        <h3>Website Development</h3>
+        <p>We build responsive websites using modern HTML5 standards.</p>
+      </article>
+      <article>
+        <h3>SEO Consulting</h3>
+        <p>Our team ensures your content reaches the right audience effectively.</p>
+      </article>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Email us at <a href="mailto:info@example.com">info@example.com</a></p>
+      <form aria-label="Contact Form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Web Demo Co. All rights reserved.</p>
+  </footer>
+</body>
+</html>
